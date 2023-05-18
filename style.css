@@ -705,7 +705,7 @@ Primary use:	Showcase Portfolio
 	
 	a, .light-content .light-section a {
 		text-decoration: none;
-		color: #000;
+		color: #fff;
 		outline: 0;
 	}
 	
@@ -893,7 +893,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	i.arrow-icon {
-		border: solid #000;
+		border: solid #fff;
 		border-width: 0px 3px 3px 0px;
 		box-sizing:border-box;
 		display: block;
@@ -921,7 +921,7 @@ Primary use:	Showcase Portfolio
 		height: 3px;
 		top: 7px;
 		left: -6px;
-		background-color: #000;
+		background-color: #fff;
 		transform: rotate(45deg);
 		-webkit-transform: rotate(45deg);
 	}

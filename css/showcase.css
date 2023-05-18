@@ -95,7 +95,7 @@
 		display:block;		
 		pointer-events:none;
 		cursor:pointer;
-		color:#000;
+		color:#fff;
 		z-index:10;
 		overflow:hidden;
 	}
@@ -126,7 +126,7 @@
 		z-index: 10;
 		position:relative;
 		display:block;
-		color: #000;
+		color: #fff;
 		overflow:hidden;
 	}
 	

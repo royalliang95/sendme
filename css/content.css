@@ -129,7 +129,7 @@
 		width:auto;
 		overflow:hidden;
 		padding: 0;
-		color:#000;		
+		color:#fff;		
 	}
 	
 	.hero-title-wrapper {
@@ -211,7 +211,7 @@
 		display:block;
 		overflow:hidden;
 		margin-left: 0px;
-		color:#000;
+		color:#fff;
 	}
 	
 	#hero.has-image .hero-subtitle {
@@ -306,7 +306,7 @@
 		display:block;
 		overflow:hidden;
 		margin-left: 0px;
-		color:#000;
+		color:#fff;
 	}
 	
 	.hero-text span {
@@ -324,7 +324,7 @@
 	#share {
 		position: relative;
 		pointer-events: initial;
-		color: #000;
+		color: #fff;
 		font-size: 18px;
 		padding-top: 30px;
 		margin-top: 80px;
