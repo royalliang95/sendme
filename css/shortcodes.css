@@ -814,7 +814,7 @@
 		color:#fff;
 	}
 	
-	.clapat-button-wrap {
+	.Sendme-button-wrap {
 		display: flex;
 		position: relative;
 		justify-content: center;
@@ -825,16 +825,16 @@
 		height:60px;		
 	}
 	
-	.clapat-button-wrap.circle {
+	.Sendme-button-wrap.circle {
 		min-width:104px;
 		height:104px;	
 	}
 	
-	.text-align-center .clapat-button-wrap {
+	.text-align-center .Sendme-button-wrap {
 		margin:0 auto;
 	}
 	
-	.clapat-button {		
+	.Sendme-button {		
 		opacity:1;		
 	}
 	
@@ -936,17 +936,17 @@
 		text-align: center;
 	}
 	
-	.clapat-button:hover .button-border span {
+	.Sendme-button:hover .button-border span {
 		-webkit-transform: translateY(-100%);
 		transform: translateY(-100%);
 		transform-origin: 0% 0%;
 	}
 	
-	.clapat-button-wrap.circle:hover .button-border {
+	.Sendme-button-wrap.circle:hover .button-border {
 		border: solid 2px transparent;	
 	}
 	
-	.clapat-button-wrap.circle .button-border input, .clapat-button-wrap.circle .button-border a {
+	.Sendme-button-wrap.circle .button-border input, .Sendme-button-wrap.circle .button-border a {
 		height: 100px;
 		width: 100px;
 		line-height: 100px;
@@ -2971,7 +2971,7 @@
 		padding-left:0px;
 	}
 			
-	.clapat-button {
+	.Sendme-button {
     	margin-bottom: 20px;
 	}
 	

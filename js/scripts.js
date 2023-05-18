@@ -998,7 +998,7 @@ Function Showcase Webgl Slider Core
 
 				`;
 
-			var gl_canvas = new ClapatWebGL({
+			var gl_canvas = new SendmeWebGL({
 					vertex: vertex,
 					fragment: fragment,
 			});

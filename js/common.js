@@ -3084,11 +3084,11 @@ Function Core
 			});
 			
 			//Blog Hover Effects			
-			$("#blog-page-nav .page-numbers li a, .post-page-numbers, #post-content a, #post-form a, #post-comments a, .wp-block-search__button, .clapat-sidebar-widget a").mouseenter(function(e) {	
+			$("#blog-page-nav .page-numbers li a, .post-page-numbers, #post-content a, #post-form a, #post-comments a, .wp-block-search__button, .Sendme-sidebar-widget a").mouseenter(function(e) {	
 				gsap.to('#ball', {duration: 0.2, borderWidth: '1px', scale: 1, opacity:0});
 			});	
 					
-			$("#blog-page-nav .page-numbers li a, .post-page-numbers, #post-content a, #post-form a, #post-comments a, .wp-block-search__button, .clapat-sidebar-widget a").mouseleave(function(e) {
+			$("#blog-page-nav .page-numbers li a, .post-page-numbers, #post-content a, #post-form a, #post-comments a, .wp-block-search__button, .Sendme-sidebar-widget a").mouseleave(function(e) {
 				gsap.to('#ball', {duration: 0.3, borderWidth: '4px', scale:0.5, opacity:1});
 			});
 		}
@@ -3154,8 +3154,8 @@ Function Core
 				  
 				  	$('main').html(section);
 				  
-				 	var clapat_title = event.match(/<title[^>]*>([^<]+)<\/title>/)[1];
-					$('head title').html( clapat_title );
+				 	var Sendme_title = event.match(/<title[^>]*>([^<]+)<\/title>/)[1];
+					$('head title').html( Sendme_title );
 				  
 					// if we have Elementor inline styles in the target page
 					headTags = [
@@ -3344,11 +3344,11 @@ Function Core
 					});
 					
 					//Blog Hover Effects			
-					$("#blog-page-nav .page-numbers li a, .post-page-numbers, #post-content a, #post-form a, #post-comments a, .wp-block-search__button, .clapat-sidebar-widget a").mouseenter(function(e) {	
+					$("#blog-page-nav .page-numbers li a, .post-page-numbers, #post-content a, #post-form a, #post-comments a, .wp-block-search__button, .Sendme-sidebar-widget a").mouseenter(function(e) {	
 						gsap.to('#ball', {duration: 0.2, borderWidth: '1px', scale: 1, opacity:0});
 					});	
 							
-					$("#blog-page-nav .page-numbers li a, .post-page-numbers, #post-content a, #post-form a, #post-comments a, .wp-block-search__button, .clapat-sidebar-widget a").mouseleave(function(e) {
+					$("#blog-page-nav .page-numbers li a, .post-page-numbers, #post-content a, #post-form a, #post-comments a, .wp-block-search__button, .Sendme-sidebar-widget a").mouseleave(function(e) {
 						gsap.to('#ball', {duration: 0.3, borderWidth: '4px', scale:0.5, opacity:1});
 					});
 				}
